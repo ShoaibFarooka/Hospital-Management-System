@@ -1,0 +1,92 @@
+.patient-app-container {
+    display: flex;
+}
+
+.patient-app-container .profile-options p {
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.patient-app-container .main-content {
+    width: 40%;
+    border: 1px solid #ccc;
+    margin: 4% 30%;
+    padding: 20px;
+}
+
+.patient-app-container .patient-profile h2 {
+    color: white;
+    background-color: #007BFF;
+    padding: 5px 10px;
+    margin-top: 0px;
+}
+
+.patient-app-container .patient-profile form {
+    display: flex;
+    flex-direction: column;
+}
+
+.patient-app-container .Name {
+    display: flex;
+}
+
+.patient-app-container .firstname,
+.patient-app-container .lastname {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.patient-app-container .firstname {
+    margin-right: 1.6%;
+}
+
+.patient-app-container .patient-profile .input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.patient-app-container .checkbox-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.patient-app-container .checkbox-section label {
+    margin-left: 10px;
+}
+
+.patient-app-container button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.patient-app-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+@media only screen and (max-width:786px) {
+    .patient-app-container .main-content {
+        width: 55%;
+        margin: 0px 0px;
+        margin-left: 30%;
+        border: none;
+    }
+
+    .patient-app-container .patient-profile h2 {
+        font-size: 17px;
+    }
+    .patient-app-container label {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,99 @@
+.Slider {
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    width: 20%;
+    padding: 0px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.title-container {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: -20%;
+    cursor: pointer;
+}
+.title-container img {
+    height: 80px;
+    width: 250px;
+}
+
+.profile-options .doctor-profile {
+    margin-bottom: 20%;
+}
+
+.doctor-profile a {
+    display: flex;
+    margin-left: 15%;
+}
+
+.doctor-profile img {
+    height: 40px;
+    width: 35px;
+}
+
+.patient-profile a {
+    display: flex;
+    margin-left: 15%;
+}
+
+.patient-profile img {
+    margin-top: 3%;
+    padding-right: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(127, 127, 139);
+}
+
+.active,
+.active:hover {
+    color: brown;
+    /* Set your desired color for the active link */
+}
+
+@media only screen and (max-width:786px) {
+    .sidebar {
+        width: 33%;
+        position: fixed;
+        padding: 0px;
+    }
+    .title-container {
+        padding: 0px;
+        margin-left: -30%;
+    }
+    .title-container img {
+        width: 150px;
+        height: 60px;
+    }
+
+    .patient-profile img {
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+
+    .doctor-profile img {
+        padding-top: 15px;
+        padding-right: 0px;
+    }
+
+    .patient-profile a {
+        margin-left: 2px;
+    }
+    .doctor-profile a {
+        margin-left: 2px;
+    }
+
+}

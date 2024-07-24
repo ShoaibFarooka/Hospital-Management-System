@@ -1,0 +1,87 @@
+.doctor-app-container {
+    display: flex;
+}
+
+.doctor-app-container .profile-options p {
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.doctor-app-container .main-content {
+    width: 40%;
+    border: 1px solid #ccc;
+    margin: 4% 30%;
+    padding: 20px;
+}
+
+.doctor-app-container .doctor-profile h2 {
+    color: white;
+    background-color: #007BFF;
+    padding: 5px 10px;
+    margin-top: 0px;
+}
+
+.doctor-app-container .doctor-profile form {
+    display: flex;
+    flex-direction: column;
+}
+.doctor-app-container .Name {
+    display: flex;
+}
+.doctor-app-container .firstname,
+.doctor-app-container .lastname {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.doctor-app-container .firstname {
+    margin-right: 1.6%;
+}
+
+.doctor-app-container .doctor-profile .input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.doctor-app-container .checkbox-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.doctor-app-container .checkbox-section label {
+    margin-left: 10px;
+}
+
+.doctor-app-container button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.doctor-app-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+@media only screen and (max-width:786px) {
+    .doctor-app-container .main-content {
+        width: 55%;
+        margin: 0px 0px;
+        margin-left: 30%;
+        border: none;
+    }
+
+    .doctor-app-container .doctor-profile h2 {
+        font-size: 17px;
+    }
+    .doctor-app-container label {
+        font-size: 15px;
+    }
+}
